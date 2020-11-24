@@ -7,7 +7,9 @@ public class GuessWord {
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli",
                 "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom",
                 "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
-        System.out.println("Угадайте, какое слово из "+Arrays.toString(words)+" я загадал");
+        System.out.println("Угадайте, какое слово из \"apple\", \"orange\", \"lemon\", \"banana\", \"apricot\", \"avocado\", \"broccoli\",\n" +
+                "                \"carrot\", \"cherry\", \"garlic\", \"grape\", \"melon\", \"leak\", \"kiwi\", \"mango\", \"mushroom\",\n" +
+                "                \"nut\", \"olive\", \"pea\", \"peanut\", \"pear\", \"pepper\", \"pineapple\", \"pumpkin\", \"potato\" я загадал");
         int score = 0;
         Random random = new Random();
         int k = random.nextInt(words.length);
